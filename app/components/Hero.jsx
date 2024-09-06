@@ -11,7 +11,7 @@ export default function Hero() {
             alt="BlockHack Logo"
             width={300}
             height={300}
-            className="w-full md:w-auto"
+            className="w-full h-auto md:w-auto" // Ensures that the image respects the aspect ratio
           />
         </div>
         <div className="md:w-1/2 text-left mb-6 md:mb-0">
@@ -30,7 +30,7 @@ export default function Hero() {
           >
             <div
               className="inline-flex bg-white text-primary font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-gray-100 transition duration-300 cursor-pointer"
-              target="_blank" // Open the link in a new tab
+              target="_blank"
               rel="noopener noreferrer"
             >
               Register Now

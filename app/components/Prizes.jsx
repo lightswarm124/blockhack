@@ -4,6 +4,7 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Scrollbar, Autoplay } from "swiper/modules";
 import { prizesData } from "../data/prizesData";
+import Image from "next/image";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -19,13 +20,13 @@ export default function Prizes() {
           slidesPerView={1}
           breakpoints={{
             1024: {
-              slidesPerView: 3, // Show 3 slides on desktop
+              slidesPerView: 3,
             },
             768: {
-              slidesPerView: 2, // Show 2 slides on tablet
+              slidesPerView: 2,
             },
             0: {
-              slidesPerView: 1, // Show 1 slide on mobile
+              slidesPerView: 1,
             },
           }}
           autoplay={{
@@ -50,12 +51,15 @@ export default function Prizes() {
           {prizesData.map((prize, index) => (
             <SwiperSlide key={index} className="p-4">
               <div className="bg-white p-4 rounded-lg shadow-lg h-full flex flex-col justify-center items-center">
-                <img
-                  alt={`prize-image-${index}`}
-                  src={prize.sponsorImage}
-                  className="rounded-lg object-cover"
-                  style={{ width: "100%", height: "200px", objectFit: "cover" }}
-                />
+                <div className="relative w-full h-52">
+                  <Image
+                    alt={`prize-image-${index}`}
+                    src={prize.sponsorImage}
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 200px"
+                    className="rounded-lg object-cover"
+                  />
+                </div>
                 <div className="mt-4">
                   <h3 className="text-xl font-semibold text-gray-900">
                     {prize.name}

@@ -21,7 +21,7 @@ export default function Header() {
           width={40} // Ensure both width and height are defined
           height={40} // to maintain aspect ratio
           priority // Since it's above the fold
-          className="object-contain"
+          className="object-contain w-auto h-auto" // Maintain the aspect ratio
         />
         <span className="text-2xl font-bold">BlockHack 2024</span>
       </Link>

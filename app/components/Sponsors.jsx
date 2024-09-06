@@ -17,13 +17,15 @@ const SponsorSection = ({ title, sponsors }) => {
               rel="noopener noreferrer"
               className="flex items-center justify-center p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition"
             >
-              <Image
-                src={sponsor.image}
-                alt={sponsor.name}
-                width={150}
-                height={150}
-                className="object-contain"
-              />
+              <div className="relative w-[150px] h-[150px]">
+                <Image
+                  src={sponsor.image}
+                  alt={sponsor.name}
+                  fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 150px"
+                  className="object-contain"
+                />
+              </div>
             </a>
           ))}
         </div>
