@@ -16,9 +16,9 @@ export const sponsorsData = {
   ],
   silver: [
     {
-      name: "Bitcoin Bay",
-      image: "/assets/BB_Blue.png",
-      link: "https://www.bitcoinbay.ca",
+      name: "DevCash",
+      image: "/assets/Devcash.png",
+      link: "https://devcash.dev/",
     },
     // {
     //   name: "Silver Sponsor 1",

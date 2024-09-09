@@ -3,7 +3,8 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="bg-gradient-to-r from-primary via-secondary to-accent text-white flex items-center justify-center min-h-screen relative">
+    <section className="bg-gradient-to-r from-primary via-secondary to-accent text-white flex flex-col items-center justify-center min-h-screen relative">
+      {/* Text and Image Section */}
       <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-6xl mx-auto px-4">
         <div className="md:w-1/2 flex justify-center">
           <Image
@@ -36,6 +37,40 @@ export default function Hero() {
               Register Now
             </div>
           </Link>
+        </div>
+      </div>
+
+      {/* Partner Logos Section */}
+      <div className="w-full mt-8 flex flex-col items-center">
+        <h3 className="text-2xl font-semibold mb-4">Our Partners</h3>
+        <div className="flex justify-center items-center space-x-8 w-full px-4">
+          <div className="w-1/3 md:w-1/4 lg:w-1/6 flex justify-center">
+            <Image
+              src="/assets/BB_Blue.png"
+              alt="Bitcoin Bay Logo"
+              width={150}
+              height={50}
+              className="object-contain"
+            />
+          </div>
+          <div className="w-1/3 md:w-1/4 lg:w-1/6 flex justify-center">
+            <Image
+              src="/assets/DM_Black.png"
+              alt="Decentralized Minds Logo"
+              width={150}
+              height={50}
+              className="object-contain"
+            />
+          </div>
+          <div className="w-1/3 md:w-1/4 lg:w-1/6 flex justify-center">
+            <Image
+              src="/assets/Dorahacks.png"
+              alt="Dorahacks Logo"
+              width={150}
+              height={50}
+              className="object-contain"
+            />
+          </div>
         </div>
       </div>
     </section>

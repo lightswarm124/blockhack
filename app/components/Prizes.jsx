@@ -51,13 +51,13 @@ export default function Prizes() {
           {prizesData.map((prize, index) => (
             <SwiperSlide key={index} className="p-4">
               <div className="bg-white p-4 rounded-lg shadow-lg h-full flex flex-col justify-center items-center">
-                <div className="relative w-full h-52">
+                <div className="relative w-full h-40">
                   <Image
                     alt={`prize-image-${index}`}
                     src={prize.sponsorImage}
                     fill
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 200px"
-                    className="rounded-lg object-cover"
+                    className="rounded-lg object-contain"
                   />
                 </div>
                 <div className="mt-4">
