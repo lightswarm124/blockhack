@@ -50,9 +50,14 @@ export const sponsorsData = {
       link: "https://www.bitcoinbay.ca",
     },
     {
-      name: "Community Partner 2",
+      name: "Decentralized Minds GBC",
       image: "/assets/DM_Black.png",
       link: "https://www.linkedin.com/company/decentralized-minds-gbc-blockchain-club/",
+    },
+    {
+      name: "DoraHacks",
+      image: "/assets/Dorahacks.png",
+      link: "https://dorahacks.io/",
     },
   ],
 };

@@ -14,7 +14,7 @@ export default function Header() {
   return (
     <header className="bg-primary text-white p-4 fixed w-full top-0 z-50 flex justify-between items-center">
       {/* Logo */}
-      <Link href="/" className="flex items-center space-x-2">
+      <Link href="#" className="flex items-center space-x-2">
         <Image
           src="/assets/BlockHackLogo.png"
           alt="BlockHack Logo"
@@ -41,12 +41,7 @@ export default function Header() {
         >
           About
         </a>
-        <a
-          href="#features"
-          className="hover:text-secondary transition duration-300"
-        >
-          Features
-        </a>
+
         <a
           href="#prizes"
           className="hover:text-secondary transition duration-300"
@@ -54,10 +49,10 @@ export default function Header() {
           Prizes
         </a>
         <a
-          href="#timeline"
+          href="#schedule"
           className="hover:text-secondary transition duration-300"
         >
-          Timeline
+          Schedule
         </a>
         <a
           href="#sponsors"
@@ -66,9 +61,12 @@ export default function Header() {
           Sponsors
         </a>
         <a
-          href="#register"
+          href="#contact"
           className="hover:text-secondary transition duration-300"
         >
+          Contact Us
+        </a>
+        <a href="#" className="hover:text-secondary transition duration-300">
           Register
         </a>
       </nav>
@@ -108,11 +106,11 @@ export default function Header() {
             Prizes
           </a>
           <a
-            href="#timeline"
+            href="#schedule"
             onClick={toggleMenu}
             className="hover:text-secondary transition duration-300"
           >
-            Timeline
+            schedule
           </a>
           <a
             href="#sponsors"
