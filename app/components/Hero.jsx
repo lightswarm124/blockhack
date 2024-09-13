@@ -6,10 +6,12 @@ export default function Hero() {
   return (
     <section
       id=""
-      className="bg-gradient-to-r from-primary via-secondary to-accent text-white flex flex-col items-center justify-center min-h-screen relative"
+      className="bg-gradient-to-r from-primary via-secondary to-accent text-white flex flex-col items-center justify-center min-h-screen relative mt-[4rem]" // Adds top margin to avoid overlap with header
     >
       {/* Text and Image Section */}
-      <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-6xl mx-auto px-4">
+      <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-6xl mx-auto px-4 pt-12 md:pt-20">
+        {" "}
+        {/* Add padding to the top */}
         <div className="md:w-1/2 flex justify-center">
           <Image
             src="/assets/BlockHackLogo.png"
