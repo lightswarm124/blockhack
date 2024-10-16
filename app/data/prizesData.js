@@ -1,19 +1,19 @@
 // app/data/prizesData.js
 export const prizesData = [
-  // {
-  //   name: "First Place",
-  //   description:
-  //     "The top team will receive a $10,000 cash prize and a feature in our partner publications.",
-  //   sponsorName: "Sponsor A",
-  //   sponsorImage: "/assets/BB_Blue.png",
-  // },
-  // {
-  //   name: "Second Place",
-  //   description:
-  //     "The second-place team will win a $5,000 cash prize and mentoring sessions with industry experts.",
-  //   sponsorName: "Sponsor B",
-  //   sponsorImage: "/assets/BB_Blue.png",
-  // },
+  {
+    name: "Astrakode",
+    description:
+      "The prize distribution includes free one-month DEV subscriptions for the winning team participants, with 10 additional subscriptions available on a first-come, first-served basis, totaling approximately $2,000 in value.",
+    sponsorName: "Astrakode",
+    sponsorImage: "/assets/Astrakode.svg",
+  },
+  {
+    name: "Chaarmi Worlds",
+    description:
+      "All participants receive 1,000 AoR Solana Tokens, the winning team shares 40,000 AoR tokens and $75 CAD in Amazon gift cards, the runner-up team gets Bluetooth speakers, and the Judges' Pick earns a Google Home Mini.",
+    sponsorName: "Chaarmi",
+    sponsorImage: "/assets/Chaarmi.png",
+  },
   {
     name: "DevCash Bounties",
     description:

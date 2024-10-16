@@ -8,11 +8,11 @@ export const sponsorsData = {
     // },
   ],
   gold: [
-    // {
-    //   name: "Gold Sponsor 1",
-    //   image: "/assets/BB_White.png",
-    //   link: "https://www.example.com",
-    // },
+    {
+      name: "Astrakode",
+      image: "/assets/Astrakode.svg",
+      link: "https://www.astrakode.tech/",
+    },
   ],
   silver: [
     {
@@ -20,11 +20,11 @@ export const sponsorsData = {
       image: "/assets/Devcash.png",
       link: "https://devcash.dev/",
     },
-    // {
-    //   name: "Silver Sponsor 1",
-    //   image: "/assets/BB_White.png",
-    //   link: "https://www.example.com",
-    // },
+    {
+      name: "Chaarmi",
+      image: "/assets/Chaarmi.png",
+      link: "https://www.chaarmi.com/",
+    },
   ],
   bronze: [
     // {
@@ -53,6 +53,11 @@ export const sponsorsData = {
       name: "Decentralized Minds GBC",
       image: "/assets/DM_Black.png",
       link: "https://www.linkedin.com/company/decentralized-minds-gbc-blockchain-club/",
+    },
+    {
+      name: "CryptoChicks",
+      image: "/assets/CryptoChicks.png",
+      link: "https://cryptochicks.ca/",
     },
     {
       name: "DoraHacks",
