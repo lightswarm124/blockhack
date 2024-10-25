@@ -15,6 +15,13 @@ export const prizesData = [
     sponsorImage: "/assets/Chaarmi.png",
   },
   {
+    name: "Dopul DGold DSilver",
+    description:
+      "The Dopul DGold DSilver prize includes $200 CAD in ETH, 1,000,000 Shiba Inu, 1,000,000 AoR, 1,000 FULA, and 1,000 ECC tokens, plus mentorship, project support, and potential integration with their Gold Silver LP Dex project.",
+    sponsorName: "Dopul",
+    sponsorImage: "/assets/DD-01.png",
+  },
+  {
     name: "DevCash Bounties",
     description:
       "$1,500 prize in DevCash split among bounties on the DevCash platform.",

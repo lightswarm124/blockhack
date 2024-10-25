@@ -25,6 +25,11 @@ export const sponsorsData = {
       image: "/assets/Chaarmi.png",
       link: "https://www.chaarmi.com/",
     },
+    {
+      name: "Dopul DGold DSilver",
+      image: "/assets/DD-01.png",
+      link: "https://www.linkedin.com/in/lotuscube/",
+    },
   ],
   bronze: [
     // {
