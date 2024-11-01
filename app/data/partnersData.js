@@ -11,6 +11,11 @@ export const partnersData = [
     link: "https://www.linkedin.com/company/decentralized-minds-gbc-blockchain-club/",
   },
   {
+    name: "Toronto DAO",
+    image: "/assets/TDAOLogo.png",
+    link: "https://www.tdao.to",
+  },
+  {
     name: "DoraHacks",
     image: "/assets/Dorahacks.png",
     link: "https://dorahacks.io/",
