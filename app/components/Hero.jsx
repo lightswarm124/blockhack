@@ -10,8 +10,6 @@ export default function Hero() {
     >
       {/* Text and Image Section */}
       <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-6xl mx-auto px-4 pt-12 md:pt-20">
-        {" "}
-        {/* Add padding to the top */}
         <div className="md:w-1/2 flex justify-center">
           <Image
             src="/assets/BlockHackLogo.png"
@@ -33,21 +31,36 @@ export default function Hero() {
           <p className="text-xl md:text-2xl mb-8">
             November 8th to 10th
             <br />
-            George Brown College - Toronto
-          </p>
-          <Link
-            href="https://dorahacks.io/hackathon/555/detail"
-            passHref
-            legacyBehavior
-          >
-            <a
-              className="inline-flex bg-primary hover:bg-#7091e6 text-white font-semibold py-3 px-8 rounded-full shadow-lg transition duration-300 cursor-pointer"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              href="https://www.google.com/maps/place/51+Dockside+Dr,+Toronto,+ON+M5A+1B6/@43.6440702,-79.3680668,17z/data=!3m1!4b1!4m6!3m5!1s0x89d4cb243773f663:0xaada5b1e44cb76cc!8m2!3d43.6440702!4d-79.3654865!16s%2Fg%2F11bw3g48zg?entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D"
+              passHref
+              legacyBehavior
             >
-              Register Now
-            </a>
-          </Link>
+              <a
+                className="text-white"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                George Brown College - Waterfront Campus
+                <br />
+                51 Dockside Dr, Toronto ON
+              </a>
+            </Link>
+            <br />
+            <Link
+              href="https://dorahacks.io/hackathon/555/detail"
+              passHref
+              legacyBehavior
+            >
+              <a
+                className="inline-flex items-center justify-center bg-primary hover:bg-primary-dark text-white font-semibold py-3 px-8 rounded-full shadow-lg transition duration-300 cursor-pointer"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Register Now
+              </a>
+            </Link>
+          </p>
         </div>
       </div>
 
