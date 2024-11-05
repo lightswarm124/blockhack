@@ -13,6 +13,11 @@ export const sponsorsData = {
       image: "/assets/Astrakode.svg",
       link: "https://www.astrakode.tech/",
     },
+    {
+      name: "Chaarmi",
+      image: "/assets/Chaarmi.png",
+      link: "https://www.chaarmi.com/",
+    },
   ],
   silver: [
     {
@@ -21,9 +26,9 @@ export const sponsorsData = {
       link: "https://devcash.dev/",
     },
     {
-      name: "Chaarmi",
-      image: "/assets/Chaarmi.png",
-      link: "https://www.chaarmi.com/",
+      name: "CUBID",
+      image: "/assets/CUBID.png",
+      link: "https://www.cubid.me/",
     },
     {
       name: "Dopul DGold DSilver",
@@ -63,6 +68,11 @@ export const sponsorsData = {
       name: "CryptoChicks",
       image: "/assets/CryptoChicks.png",
       link: "https://cryptochicks.ca/",
+    },
+    {
+      name: "Toronto DAO",
+      image: "/assets/TDAOLogo.png",
+      link: "https://www.tdao.to",
     },
     {
       name: "DoraHacks",

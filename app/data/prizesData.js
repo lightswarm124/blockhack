@@ -22,6 +22,13 @@ export const prizesData = [
     sponsorImage: "/assets/DD-01.png",
   },
   {
+    name: "CUBID Identity Challenges",
+    description:
+      "Compete in the CUBID Identity Challenges for a chance to win up to $10,000 in rewards, equity opportunities, and unique prizes. Participants will explore decentralized identity, credentialing, and Web3 integrations with CUBID’s innovative platform. For more details, refer to the full challenge document.",
+    sponsorName: "CUBID",
+    sponsorImage: "/assets/CUBID.png",
+  },
+  {
     name: "DevCash Bounties",
     description:
       "$1,500 prize in DevCash split among bounties on the DevCash platform.",
